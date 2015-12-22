@@ -1,0 +1,97 @@
+body {
+	font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+    color:white;
+     /* Location of the image */
+  background-image: url('http://botasot.info/reklama/MGB2.jpg');
+  
+  /* Background image is centered vertically and horizontally at all times */
+  background-position: center center;
+  
+  /* Background image doesn't tile */
+  background-repeat: no-repeat;
+  
+  /* Background image is fixed in the viewport so that it doesn't move when 
+     the content's height is greater than the image's height */
+  background-attachment: fixed;
+  
+  /* This is what makes the background image rescale based
+     on the container's size */
+  background-size: cover;
+  
+  /* Set a background color that will be displayed
+     while the background image is loading */
+  background-color: #464646;
+}
+
+#header {
+	position: absolute;
+	right: 20px;
+	top: 20px;
+	width: 100%;
+	text-align: right;
+}
+
+#home{
+	margin-right: 10px;
+}
+
+#footer {
+	position: absolute;
+	right: 20px;
+	bottom: 20px;
+	width: 100%;
+	text-align: right;
+}
+
+#home{
+	margin-right: 10px;
+}
+
+#info {
+	letter-spacing: 2px;
+	color: #ccc;
+	margin: 180px 0 0 50px;
+}
+
+#top_container {
+	position: fixed;
+	top: 200px;
+}
+
+.message {
+	padding: 30px 30px 30px 50px;
+	font-family: Monaco, Consolas, "Lucida Console", monospace;
+	font-size: 28px;
+	color: white;
+	width: 680px;
+}
+
+
+#bottom_container {
+	position: absolute;
+	top: 2500px;
+	height: 2000px;
+	width: 100%
+}
+
+
+#attribute {
+	text-align: right;
+	width: 680px;
+	padding: 0 30px;
+}
+
+a {
+	text-decoration: none;
+	font-size: 18px;
+	letter-spacing: 2px;
+	color: #fff;
+}
+
+a:hover {
+	color: #5f8360;
+}
+
+
+
+
